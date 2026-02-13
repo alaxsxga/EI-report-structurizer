@@ -1,0 +1,21 @@
+# Python 暫存檔
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 敏感報告檔案 (保護隱私)
+*.docx
+*.doc
+*.json
+*.md
+!使用說明.md  # 唯獨保留這份說明文件
+!report_a_結構化.md # 如果您想保留示範用的結構化檔案，可以把 ! 拿掉或手動上傳
+
+# 系統檔案
+.DS_Store
+Thumbs.db
+
+# 虛擬環境
+venv/
+env/
+.env
