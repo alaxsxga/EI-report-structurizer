@@ -7,9 +7,10 @@ __pycache__/
 *.docx
 *.doc
 *.json
-!vercel.json  # 這是設定檔，必須上傳
+!vercel.json
 *.md
-!使用說明.md  # 唯獨保留這份說明文件
+!README.md    # 允許上傳 README
+!使用說明.md  # 允許上傳使用說明
 
 # 系統檔案
 .DS_Store
