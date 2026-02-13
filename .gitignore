@@ -7,9 +7,9 @@ __pycache__/
 *.docx
 *.doc
 *.json
+!vercel.json  # 這是設定檔，必須上傳
 *.md
 !使用說明.md  # 唯獨保留這份說明文件
-!report_a_結構化.md # 如果您想保留示範用的結構化檔案，可以把 ! 拿掉或手動上傳
 
 # 系統檔案
 .DS_Store
